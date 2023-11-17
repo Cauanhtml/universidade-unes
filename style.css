@@ -1,0 +1,105 @@
+body{
+    background: url(imagens/fundo.png);
+}
+.img
+{
+    margin-left: 300px;
+    margin-top: 20px;
+    
+}
+#a
+{
+    margin-left: 400px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#titulo5
+{
+    animation: piscar 0.4s infinite;
+}
+
+@keyframes piscar
+{
+    10% {color: transparent;}
+}
+
+
+.list
+{
+    
+    text-decoration: none;
+    text-indent: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.list:hover
+{
+
+    color: blue;
+   
+
+
+}
+
+
+body.home .divisao #a,
+body.QuemSomos .divisao #b.list,
+body.contato .divisao #c.list
+{
+    color: blue;
+}
+
+.capa
+{
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 50%;
+    
+}
+.divisao
+{
+   
+    margin-left: 200px;
+}
+.h1
+{
+    margin-left: 500px;
+    margin-top: 155px;
+}
+.p {
+    margin-left: 500px;
+    width: 900px;
+}
+.input
+{
+    margin-left: 500px;
+}
+.strong
+{
+    margin-left: 850px;
+    
+}
+
+
+li
+{
+    
+    font-size: 1.5em;
+    color: blue;
+    margin-top: 20px;
+    border-bottom: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    border-bottom-width: 1px;
+    width: fit-content;
+    padding-right: 40px;
+}
